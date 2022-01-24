@@ -24,7 +24,7 @@ Clone the open source code of LINE from https://github.com/tangjianpku/LINE.
 
 And run LINE embedding generation process in shell:
 
-./line -train train_file -output embedding_file -binary 1 -size 100 -order 1 -negative 5 -samples 100 -rho 0.025 -threads 10
+./line -train train_file -output embedding_file -size 128 -order 1 -negative 5 -samples 100 -rho 0.025 -threads 10
 
 ## 3. prediction the result
 
