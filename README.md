@@ -19,4 +19,5 @@ And run LINE embedding generation process in shell:
 ## 3. prediction the result
 Run code in model_predict.py to calculate the dot similarity of two target nodes.
 
+## 4. reference
 [1] LINE: Large-scale Information Network Embedding.
