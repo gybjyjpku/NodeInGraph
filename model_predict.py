@@ -30,18 +30,6 @@ dst = test_csv.dst.values
 
 print(label.shape)
 
-# cosine similarity
-# exist_probs = []
-# for i in range(label.shape[0]):
-#     exist_prob = np.dot(node_emb[src[i], :], node_emb[dst[i], :])/(norm(node_emb[src[i], :])*norm(node_emb[dst[i], :]))
-#     exist_prob_2 = np.dot(node_emb_2[src[i], :], node_emb_2[dst[i], :])/(norm(node_emb_2[src[i], :])*norm(node_emb_2[dst[i], :]))
-#     exist_probs.append(exist_prob_2)
-
-# exist_probs = np.array(exist_probs)
-
-# AUC = roc_auc_score(label,exist_probs)
-# print(f'AUC is {round(AUC,5)}')
-
 
 # dot product similarity
 exist_probs = []
